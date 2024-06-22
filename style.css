@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#up{
+    color: rgb(255, 77, 0);
+    font-family: "Rubik Mono One", monospace;
+    font-weight: bolder;
+}
+#step{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.card{
+    width: 300px;
+}
+#shop{
+    font-family: "Chivo Mono", monospace;
+    font-weight: bold;
+}
+#men .image{
+    width: 300px;
+    margin-top: 20px;
+    
+}
+.image img{
+    width: 100%;
+}
+#women .image{
+    width: 300px;
+    margin-top: 20px;
+    
+}
+#summer .image{
+    width: 300px;
+    margin-top: 20px;
+    
+}
+#Trending .image{
+    width: 300px;
+    margin-top: 20px;
+    
+
+}
+#links a{
+    text-decoration: none;
+    color: black;
+}
+.iconup{
+    float: right;
+    margin: -40px 30px 30px 0px ;
+    
+}
+.iconup a{
+    color: black;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: solid 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    
+}
+.icon:hover{
+    background: linear-gradient(to bottom right,rgb(212, 255, 0),rgb(255, 16, 16));
+    border: solid 0px;
+}
+.icon:hover a{
+    color: white;
+    animation: rotate 3s;
+    
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
